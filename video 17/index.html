@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <!-- Element selector -->
+    <!-- Class selector -->
+    <!-- ID selector -->
+    <!-- Child selector -->
+    <!-- Descendant selector -->
+    <!-- Universal selector -->
+
+    <!-- Pseudo selector - used in link -->
+    <!-- 1. a:visited -->
+    <!-- 2. a:link -->
+    <!-- 3. a:active -->
+    <!-- 4. a:hover -->
+    <!-- 5. p:first-child -->
+
+    <style>
+        /* Element selector */
+        div {
+            color: red;
+            background-color: yellow;
+        }
+
+        /* Class selector */
+        .blue {
+            color: blue;
+        }
+
+        /* ID selector */
+        #BG_color {
+            background-color: brown;
+        }
+
+        /* Child selector */
+        span>p {
+            color: rgb(42, 12, 133);
+        }
+
+        /* Descendant selector */
+        span p {
+            background-color: rgb(170, 0, 255);
+        }
+
+        /* Universal selector */
+        * {
+            color: white;
+            background-color: rgb(105, 171, 171);
+            /* margin: 0%;
+            padding: 0% */
+        }
+
+        /* Pseudo selector - used in link */
+        a:visited {
+            color: red;
+        }
+
+        a:link {
+            color: rgb(26, 13, 1);
+        }
+
+        a:active {
+            color: rgb(204, 49, 243);
+        }
+
+        a:hover {
+            color: aquamarine;
+            background-color: black;
+        }
+
+        h2 :first-child {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        I am div
+    </div>
+
+    <div class="blue">
+        This is the class Selector
+    </div>
+
+    <p id="BG_color">Hey buddy whats app</p>
+
+    <span>
+        <p>I am a child of span</p>
+        <p>I am a second child </p>
+    </span>
+
+    <main class="one">
+        <h2>FIRST</h2>
+        <h2>SECOND</h2>
+    </main>
+
+    <main>
+        <a target="_blank" href="https://www.google.com">Go to Google</a>
+    </main>
+
+</body>
+
+</html>
