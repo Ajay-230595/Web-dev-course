@@ -1,0 +1,16 @@
+/* This is the external CSS */
+li{
+    color: blueviolet;
+    
+}
+ol{
+    background-color: rgb(151, 208, 165);
+}
+div{
+    background-color: black;
+    color: azure;
+}
+p{
+    color: brown;
+    background-color: rgb(194, 194, 220);
+}
