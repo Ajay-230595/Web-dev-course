@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    background-color: rgb(209, 233, 242);
+}
+
+.card{
+    background-color: white;
+    height: 500px;
+    width: 250px;
+    border-radius: 20px;
+    padding: 7px;
+    border: 2px solid black;
+   
+}
+
+.img{
+    background-image: url(boat.jpg);
+    background-size: cover;
+    height: 35%;
+    width: 100%;
+    border-radius: 10px;
+  
+    
+}
+.capsule{
+    margin-top: 10px;
+    padding: 5px 5px;
+}
+
+span{
+    height: 20px;
+    width: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 9px;
+    border: 1px solid black;
+    padding: 3px;
+}
+.content{
+    margin-top: 20px;
+    padding: 0 5px;
+
+}
+.content p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.button{
+    text-align: center;
+
+}
+button{
+    background-color: rgb(194, 194, 226);
+    color: blue;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 2px;
+}
+.button button:hover{
+    background-color: rgb(24, 238, 238);
+    color: beige;
+    
+}
+::selection{
+    background-color: rgb(57, 107, 136);
+}
